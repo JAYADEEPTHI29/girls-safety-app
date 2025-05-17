@@ -1,0 +1,108 @@
+homepage.css
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fff0f6;
+  color: #333;
+}
+
+header {
+  background: #d6336c;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo {
+  font-size: 32px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #fff;
+  background: #a61e4d;
+  padding: 5px 12px;
+  border-radius: 50%;
+}
+
+.container {
+  max-width: 400px;
+  background: #ffffff;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+h2 {
+  color: #d6336c;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 14px;
+  margin: 10px 0;
+  width: 85%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.primary-btn, .secondary-btn, .alert-btn {
+  display: block;
+  margin: 12px auto;
+  padding: 14px 22px;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  cursor: pointer;
+  width: 85%;
+  transition: background 0.3s ease;
+}
+
+.primary-btn {
+  background: #d6336c;
+  color: #fff;
+}
+
+.primary-btn:hover {
+  background: #a61e4d;
+}
+
+.secondary-btn {
+  background: #eee;
+  color: #333;
+}
+
+.secondary-btn:hover {
+  background: #ddd;
+}
+
+.alert-btn {
+  background: #ff4d4f;
+  color: #fff;
+}
+
+.alert-btn:hover {
+  background: #c41d1d;
+}
+
+#location-display, #call-log {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #444;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  margin: 40px 0 10px;
+}
