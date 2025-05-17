@@ -1,0 +1,55 @@
+loginpage.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pingo - Girls' Safety App</title>
+  <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <span>P</span>ingo
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- Login / Signup -->
+    <div id="auth-section">
+      <h2>Welcome to Pingo</h2>
+      <p class="subtitle">Your personal girls' safety companion</p>
+      <input type="text" id="username" placeholder="Username" />
+      <input type="password" id="password" placeholder="Password" />
+      <button class="primary-btn" onclick="login()">Login</button>
+      <button class="secondary-btn" onclick="showParentLogin()">Parent Login</button>
+    </div>
+
+    <!-- Parent Login -->
+    <div id="parent-login-section" style="display:none;">
+      <h2>Parent Login</h2>
+      <input type="text" id="parentUsername" placeholder="Parent Username" />
+      <input type="password" id="parentPassword" placeholder="Password" />
+      <button class="primary-btn" onclick="parentLogin()">Login as Parent</button>
+      <button class="secondary-btn" onclick="backToLogin()">Back</button>
+    </div>
+
+    <!-- Main Features -->
+    <div id="main-section" style="display:none;">
+      <h2>Hello, stay safe!</h2>
+      <button class="primary-btn" onclick="getLocation()">📍 Share Live Location</button>
+      <button class="primary-btn" onclick="simulateCall()">📞 Normal Call</button>
+      <button class="primary-btn" onclick="simulateVideoCall()">🎥 Video Call</button>
+      <button class="alert-btn" onclick="sendEmergencyAlert()">🚨 Emergency Alert</button>
+      <div id="location-display"></div>
+      <div id="call-log"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Pingo Safety App</p>
+  </footer>
+
+  <script src="app.css"></script>
+</body>
+</html>
